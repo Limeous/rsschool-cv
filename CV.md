@@ -16,3 +16,42 @@ I'm a begginer fronted developer with pasion for learning new stuff. For sure wh
 
 ***
 
+## Skills:
+*   English C1
+*   C++, Java, kotlin basics
+*   Git, Github
+*   IntelliJ, VS Code, Linux terminal
+*   DaVinci Reslove, Adobe Suite
+
+***
+
+## Code Example:
+
+This is an example of a simple number scanner based on Java. 
+
+```
+import java.util.Scanner; // импорт сканера
+ 
+class Test {
+	public static void main(String args[]){
+		System.out.print("Введите любое целое число от 1 до 10: ");
+		Scanner scan = new Scanner(System.in);
+		int number = scan.nextInt();
+		System.out.println ("Вы ввели число " + number);
+	}
+}
+```
+
+***
+
+## Education:
+*   Belarusian State Academy of Communications
+*   Blackmagic Design Resolve school
+*   RSShool
+
+***
+
+## Languages:
+*   **Russian**(native)
+*   **Belarusian**(native)
+*   **English**(c1)
