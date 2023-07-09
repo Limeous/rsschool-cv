@@ -19,7 +19,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
- }
+}
 
 .nav-list {
     display: flex;
@@ -41,64 +41,65 @@ body {
     color: #ff020250;
 }
 
-  .main-container {
+   .main-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+}
   
-  .section {
+.section {
     width: 45%;
     padding: 20px 20px 20px;
     border-bottom: 3px double #ff020250;
     font-size: 17px;
     font-weight: 500;
     line-height: 1.6;
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .section {
       width: 100%;
     }
-  }
-  .header
-  {
+}
+  
+.header {
     background-color: #ff020250;
-  }
+}
 
-  .section-title {
+.section-title {
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
     color:rgb(255, 0, 0);
     letter-spacing: 4px;
-  }
+}
 
-  .main-title {
+.main-title {
     font-size: 50px;
     color: #000000;
     font-weight: 800;
     display: flex;
     flex-direction: column;
     text-align: center;
-  }
+}
 
-  .section-profile {
+.section-profile {
     display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding: 20px 30px 20px;
-  border-bottom: 10px solid #ff020250;
-  }
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 30px 20px;
+    border-bottom: 10px solid #ff020250;
+    
+}
 
-  .section-profile-title {
+.section-profile-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;  
     text-transform: uppercase;
-  }
+}
 
 .profile-logo {
     width: 300px;
