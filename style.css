@@ -27,6 +27,7 @@ body {
     align-items: center;
     list-style: none;
 }
+
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
@@ -35,14 +36,10 @@ body {
     color:rgb(0, 0, 0);
     font-size: 25px;
 }
-.section-item a {
-    color: #975620;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #0ce02f;
-  }
+
+.nav-link:hover {
+    color: #ff020250;
+}
 
   .main-container {
     display: flex;
@@ -56,6 +53,7 @@ body {
     border-bottom: 3px double #ff020250;
     font-size: 17px;
     font-weight: 500;
+    line-height: 1.6;
   }
 
   @media (max-width: 768px) {
@@ -63,21 +61,28 @@ body {
       width: 100%;
     }
   }
+  .header
+  {
+    background-color: #ff020250;
+  }
 
   .section-title {
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
     color:rgb(255, 0, 0);
+    letter-spacing: 4px;
   }
+
   .main-title {
-    font-size: 100;
+    font-size: 50px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 800;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
+
   .section-profile {
     display: flex;
   justify-content: space-around;
@@ -85,6 +90,7 @@ body {
   padding: 20px 30px 20px;
   border-bottom: 10px solid #ff020250;
   }
+
   .section-profile-title {
     display: flex;
     flex-direction: column;
@@ -94,3 +100,29 @@ body {
     text-transform: uppercase;
   }
 
+.profile-logo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 180px;
+    border:3px solid #ff0202bd;
+    box-shadow: 0 0 7px #4d080893;
+    
+}
+
+.section-education,
+.section-languages {
+    border-bottom: 0;
+}
+
+.footer-rss-logo {
+    width: 60px;
+    
+}
+.footer-container {
+display: flex;
+font-size: 15px;
+justify-content: center;
+align-items: center;
+background-color: #ff020250;
+}
